@@ -24,5 +24,6 @@ public class Main {
             }
         }
         System.out.println(accepted ? "Welcome to the Magic Vet" : "Application has be blocked");
+
     }
 }
