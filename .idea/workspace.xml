@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-01: Base authentification" />
+    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-02: Email validation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -33,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "req-01__base__autentification",
+    "git-widget-placeholder": "req-02__email__validation",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713353225623</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="req-02: Email validation">
+      <option name="closed" value="true" />
+      <created>1713361327832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713361327832</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="req-01: Base authentification" />
-    <option name="LAST_COMMIT_MESSAGE" value="req-01: Base authentification" />
+    <MESSAGE value="req-02: Email validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="req-02: Email validation" />
   </component>
 </project>
