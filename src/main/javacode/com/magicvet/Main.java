@@ -41,6 +41,7 @@ public class Main {
         System.out.println("Last name: ");
         client.lastName = SCANNER.nextLine();
 
+
         return  client;
     }
 
