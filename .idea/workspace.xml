@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-01: Base authentification">
-      <change afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/ApplicationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/Autentificator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/PetService.java" afterDir="false" />
+    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-03: Add new pet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/ApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/ApplicationRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/Autentificator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/Autentificator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/PetService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +105,7 @@
       <updated>1713270025188</updated>
       <workItem from="1713270026172" duration="3285000" />
       <workItem from="1713342296247" duration="2641000" />
-      <workItem from="1718743847285" duration="5659000" />
+      <workItem from="1718743847285" duration="8031000" />
     </task>
     <task id="LOCAL-00001" summary="req-01: Base authentification">
       <option name="closed" value="true" />
@@ -134,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718742964213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="req-03: Add new pet">
+      <option name="closed" value="true" />
+      <created>1718752477481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718752477481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="req-02: Email validation" />
     <MESSAGE value="req-01: Base authentification" />
-    <option name="LAST_COMMIT_MESSAGE" value="req-01: Base authentification" />
+    <MESSAGE value="req-03: Add new pet" />
+    <option name="LAST_COMMIT_MESSAGE" value="req-03: Add new pet" />
   </component>
 </project>

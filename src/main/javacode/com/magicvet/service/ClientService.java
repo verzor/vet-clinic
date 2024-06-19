@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 import static main.javacode.com.magicvet.Main.SCANNER;
 
 public class ClientService {
-    private static String EMAIL_PATTERN = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%+-]+\\.[a-zA-Z]{2,}$";
+    private final static String EMAIL_PATTERN = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%+-]+\\.[a-zA-Z]{2,}$";
 
     public Client registerNewClient() {
         Client client = null;
