@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-03: Add new pet">
+    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-04: Show client info">
+      <change afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/ApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/ApplicationRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/Autentificator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/Autentificator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/PetService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="req-02_email_validation" />
+        <entry key="$PROJECT_DIR$" value="req-04_toString" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;req-03__add__pet&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "req-05__remove__unused__pet__type",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\verzo\IdeaProjects\vet-clinic\src\main\javacode\com\magicvet\model" />
@@ -105,7 +104,7 @@
       <updated>1713270025188</updated>
       <workItem from="1713270026172" duration="3285000" />
       <workItem from="1713342296247" duration="2641000" />
-      <workItem from="1718743847285" duration="8031000" />
+      <workItem from="1718743847285" duration="10435000" />
     </task>
     <task id="LOCAL-00001" summary="req-01: Base authentification">
       <option name="closed" value="true" />
@@ -139,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718752477481</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="req-04: Show client info">
+      <option name="closed" value="true" />
+      <created>1718830402083</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718830402083</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <MESSAGE value="req-02: Email validation" />
     <MESSAGE value="req-01: Base authentification" />
     <MESSAGE value="req-03: Add new pet" />
-    <option name="LAST_COMMIT_MESSAGE" value="req-03: Add new pet" />
+    <MESSAGE value="req-04: Show client info" />
+    <option name="LAST_COMMIT_MESSAGE" value="req-04: Show client info" />
   </component>
 </project>
