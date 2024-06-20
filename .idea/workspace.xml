@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-06: Sort dogs by size">
+    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-07: use enum for dog size">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/Sandbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/Sandbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/comparator/DogSizeComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/PetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="req-06_sort_dogs" />
+        <entry key="$PROJECT_DIR$" value="req-07_code_improve" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "req-07__code__improve",
+    "git-widget-placeholder": "req-08__add__registration__date",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -104,7 +103,7 @@
       <updated>1713270025188</updated>
       <workItem from="1713270026172" duration="3285000" />
       <workItem from="1713342296247" duration="2641000" />
-      <workItem from="1718743847285" duration="14363000" />
+      <workItem from="1718743847285" duration="15268000" />
     </task>
     <task id="LOCAL-00001" summary="req-01: Base authentification">
       <option name="closed" value="true" />
@@ -162,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718835033758</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="req-07: use enum for dog size">
+      <option name="closed" value="true" />
+      <created>1718904504108</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718904504108</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +193,7 @@
     <MESSAGE value="req-04: Show client info" />
     <MESSAGE value="req-05: Remove pet type &quot;other&quot;" />
     <MESSAGE value="req-06: Sort dogs by size" />
-    <option name="LAST_COMMIT_MESSAGE" value="req-06: Sort dogs by size" />
+    <MESSAGE value="req-07: use enum for dog size" />
+    <option name="LAST_COMMIT_MESSAGE" value="req-07: use enum for dog size" />
   </component>
 </project>
