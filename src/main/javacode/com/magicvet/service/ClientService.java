@@ -31,14 +31,25 @@ public class ClientService {
     static Client buildClient(String email) {
         Client client = new Client();
         client.setEmail(email);
+
         System.out.print("First name: ");
         client.setFirstName(SCANNER.nextLine());
+
         System.out.print("Last name: ");
         client.setLastName(SCANNER.nextLine());
-        System.out.print("Location:");
-        String location = SCANNER.nextLine();
-        client.setLocation(Client.Location.valueOf(location));
 
+        System.out.print("Location:");
+        Client.Location location;
+
+        String locationInput = SCANNER.nextLine();
+        try {
+            location = Client.Location.valueOf(locationInput);
+        }  catch (IllegalArgumentException e){
+            location = Client.Location.UNKNOWN;
+            System.out.println("Unable to parse value '"+ locationInput
+                            + ".Used default:" + Client.Location.UNKNOWN);
+        }
+        client.setLocation(location);
         return  client;
     }
 
