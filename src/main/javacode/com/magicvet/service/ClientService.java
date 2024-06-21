@@ -31,11 +31,13 @@ public class ClientService {
     static Client buildClient(String email) {
         Client client = new Client();
         client.setEmail(email);
-        System.out.println("First name: ");
+        System.out.print("First name: ");
         client.setFirstName(SCANNER.nextLine());
-        System.out.println("Last name: ");
+        System.out.print("Last name: ");
         client.setLastName(SCANNER.nextLine());
-
+        System.out.print("Location:");
+        String location = SCANNER.nextLine();
+        client.setLocation(Client.Location.valueOf(location));
 
         return  client;
     }

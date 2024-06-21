@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-08: Add registration date for Pet class">
+    <list default="true" id="abee6d57-c234-4aef-8fa0-64635ffbcddd" name="Changes" comment="req-09: Ability to add few pets per client">
+      <change afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/EntityRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/ApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/component/ApplicationRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javacode/com/magicvet/service/ClientService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="req-08_add_registration_date" />
+        <entry key="$PROJECT_DIR$" value="req-09_pets_list" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "req-09__pets__list",
+    "git-widget-placeholder": "req-10__group__clients",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -104,7 +105,7 @@
       <updated>1713270025188</updated>
       <workItem from="1713270026172" duration="3285000" />
       <workItem from="1713342296247" duration="2641000" />
-      <workItem from="1718743847285" duration="18215000" />
+      <workItem from="1718743847285" duration="24345000" />
     </task>
     <task id="LOCAL-00001" summary="req-01: Base authentification">
       <option name="closed" value="true" />
@@ -178,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718905485390</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="req-09: Ability to add few pets per client">
+      <option name="closed" value="true" />
+      <created>1718914459274</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718914459274</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +213,7 @@
     <MESSAGE value="req-06: Sort dogs by size" />
     <MESSAGE value="req-07: use enum for dog size" />
     <MESSAGE value="req-08: Add registration date for Pet class" />
-    <option name="LAST_COMMIT_MESSAGE" value="req-08: Add registration date for Pet class" />
+    <MESSAGE value="req-09: Ability to add few pets per client" />
+    <option name="LAST_COMMIT_MESSAGE" value="req-09: Ability to add few pets per client" />
   </component>
 </project>
